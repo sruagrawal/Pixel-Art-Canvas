@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <title>Pixel Art Canvas</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+      <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+      <h1>Pixel Art Canvas</h1>
+      <h2>Choose Size</h2>
+      <form id="sizePicker">
+          Height:
+          <input type="number" id="inputHeight" name="height" min="1" value="1">  Width:
+          <input type="number" id="inputWidth" name="width" min="1" value="1">
+          <input type="submit">
+      </form>
+
+      <h2>Pick A Color</h2>
+      <input type="color" id="colorPicker">
+
+      <h2>Design Canvas</h2>
+      <table id="pixelCanvas">
+      </table>
+
+      <script src="design.js"></script>
+  </body>
+
+</html>
